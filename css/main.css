@@ -100,26 +100,35 @@ textarea {
 
 
 /* <!-- ///////================================================================================////////////
-///////======================================Start Customize=======================================//////////// */
+///////=============================================================================//////////// */
 
 i {
-
+font-size: 30px;
 }
 p {
-
+  margin-left: 1em;
+  padding: 1vh;
+  font-size: 16px;
 }
 li {
 
 }
-h1, h2 {
-
+h1 {
+  color: white;
+  font-size: 27px;
+  margin-bottom: 2em;
+}
+h2 {
+  color: white;
+  font-size: 17px;
 }
 a {
-
+  display: flex;
+ justify-content: center;
 }
 
 /* <!-- ///////================================================================================////////////
-///////======================================End Customize=======================================//////////// */
+///////=============================================================================//////////// */
 
 
 
@@ -130,41 +139,56 @@ a {
 /* ======================DIV LEFT===================== */
 
 main {
+  height: 90vh;
   display: flex;
-  justify-content:center;
 }
 
 .left {
-  background-color: red;
+  background-image: url("file:///home/stagiere/Site/Lab/pa twitter/twitter.png");
+  background-size: 110vh;
+  background-repeat: no-repeat;
   width: 50%;
-
+  color: white;
 }
-.test {
-
+.text {
+  margin: 9em;
+  margin-top: 11em;
 }
-.test1 {
-
+.text1 {
+  display: flex;
+  align-items: center;
 }
-.test2 {
-
+.text2 {
+  display: flex;
+  align-items: center;
 }
-.test3 {
+.text3 {
+  display: flex;
+  align-items: center;
 
 }
 
 /* ======================DIV RIGHT===================== */
 
 .right {
-  background-color: yellow;
+  background-color: rgb(21, 32, 43);
   width: 50%;
 
 }
 .loginandsign {
+  margin: 7em 9em;
 
 }
 .logoandbouton {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+#iconet {
+  font-size: 45px;
+  color: #1da1f2;
+}
+
 
 
 
@@ -179,15 +203,27 @@ main {
 ///////==================================================================================//////////// --> */
 
 footer {
-  background-color: pink;
+  height: 10vh;
+  background-color: rgb(21, 32, 43);
+  border-top-color: rgb(16, 23, 30);
+  border-top-style: solid;
+  border-top-width: 1px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ul1 {
+  color: green;
+  font-size: 55%;
   display: flex;
+
 }
 .ul2 {
+  color: grey;
+  font-size: 55%;;
   display: flex;
+  flex-direction: row;
 }
 
 /* <!-- ///////================================================================================////////////
